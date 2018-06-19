@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="wangle"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wangle">
+				<Option output="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/lib/libwangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle"/>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 wangle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wangle/fast">
+				<Option output="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/lib/libwangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle"/>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 wangle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConsumerAgent">
+				<Option output="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/bin/ConsumerAgent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle"/>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConsumerAgent"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ConsumerAgent/fast">
+				<Option output="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/bin/ConsumerAgent" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle"/>
+					<Add directory="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/chijinxin/folly"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConsumerAgent/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/Acceptor.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/Acceptor.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/AcceptorHandshakeManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/AcceptorHandshakeManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/ConnectionCounter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/ConnectionManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/ConnectionManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/EvbHandshakeHelper.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/EvbHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/LoadShedConfiguration.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/LoadShedConfiguration.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/ManagedConnection.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/ManagedConnection.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/NetworkAddress.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/PeekingAcceptorHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SSLAcceptorHandshakeHelper.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SSLAcceptorHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SSLContextSelectionMisc.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SecureTransportType.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SecureTransportType.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SecurityProtocolContextManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/ServerSocketConfig.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SocketOptions.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SocketOptions.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/SocketPeeker.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/TLSPlaintextPeekingCallback.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/TLSPlaintextPeekingCallback.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/TransportInfo.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/TransportInfo.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/UnencryptedAcceptorHandshakeHelper.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/acceptor/test/AcceptorHelperMocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/AcceptRoutingHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/AcceptRoutingHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/BaseClientBootstrap.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/ClientBootstrap.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/RoutingDataHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/RoutingDataHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/ServerBootstrap-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/ServerBootstrap.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/ServerBootstrap.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/ServerSocketFactory.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/bootstrap/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/AsyncSocketHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/EventBaseHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/FileRegion.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/FileRegion.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/Handler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/HandlerContext-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/HandlerContext.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/OutputBufferingHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/Pipeline-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/Pipeline.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/Pipeline.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/StaticPipeline.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/BroadcastHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/BroadcastHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/BroadcastPool-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/BroadcastPool.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/ObservingHandler-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/ObservingHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/Subscriber.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/broadcast/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/test/MockHandler.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/channel/test/MockPipeline.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/chijinxin/ConsumerAgent.cpp">
+			<Option target="ConsumerAgent"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/chijinxin/etcdclient.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/chijinxin/httpcodec.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/chijinxin/utility.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/FilePersistentCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/FilePersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/LRUInMemoryCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/LRUInMemoryCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/LRUPersistentCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/LRUPersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/PersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/PersistentCacheCommon.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/SharedMutexCacheLockGuard.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/persistence/test/TestUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSession.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionCacheData.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionCacheData.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionCacheUtils.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionCacheUtils.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionCallbacks.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionCallbacks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionPersistentCache-inl.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/SSLSessionPersistentCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/ThreadSafeSSLSessionCache.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/test/Mocks.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/client/ssl/test/TestUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/ByteToMessageDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/FixedLengthFrameDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/LengthFieldBasedFrameDecoder.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/LengthFieldBasedFrameDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/LengthFieldPrepender.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/LengthFieldPrepender.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/LineBasedFrameDecoder.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/LineBasedFrameDecoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/MessageToByteEncoder.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/StringCodec.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/codec/test/CodecTestUtils.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/deprecated/rx/Dummy.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/deprecated/rx/Observable.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/deprecated/rx/Observer.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/deprecated/rx/Subject.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/deprecated/rx/Subscription.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/deprecated/rx/types.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/service/ClientDispatcher.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/service/CloseOnReleaseFilter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/service/ExecutorFilter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/service/ExpiringFilter.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/service/ServerDispatcher.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/service/Service.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/ClientHelloExtStats.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/PasswordInFile.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/PasswordInFile.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLCacheOptions.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLCacheProvider.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLContextConfig.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLContextManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLContextManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLSessionCacheManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLSessionCacheManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLStats.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLUtil.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/SSLUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/ServerSSLContext.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/ServerSSLContext.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/TLSCredProcessor.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/TLSCredProcessor.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/TLSTicketKeyManager.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/TLSTicketKeyManager.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/TLSTicketKeySeeds.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/ssl/test/TicketUtil.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/util/FilePoller.cpp">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/util/FilePoller.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/util/MultiFilePoller.h">
+			<Option target="wangle"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/../../../../../usr/local/lib/cmake/folly/folly-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/../../../../../usr/local/lib/cmake/folly/folly-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/../../../../../usr/local/lib/cmake/folly/folly-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake/CheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake/FindDoubleConversion.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake/FindGflags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake/FindLibevent.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake/FindLibrt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/chijinxin/CLionProjects/consumer-agent-wangle/wangle/cmake/wangle-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
