@@ -298,31 +298,31 @@ public:
                           Response resp("HTTP/1.1 200 OK\ncontent-length:3\ncontent-type:application/x-www-form-urlencoded\n\n123\n");
                           return std::move(resp);
                       });
-//        return (*(ProviderAgentClientDispather_[index]))(std::move(agentRequest)).via(ioExecutor_->getEventBase())
-//                .then([this](AgentResponse response)
-//                      {
-//                          //cout<<"["<<agentRequest.req_id<<","<<response.resp_id<<"]"<<endl;
-//                          if(response.result.at(0)!='1')
-//                          {
-//                              Response resp("HTTP/1.1 200 OK\ncontent-length:3\ncontent-type:application/x-www-form-urlencoded\n\n123\n");
-//                              return std::move(resp);
-//                          }
-//                          else
-//                          {
-//                              ostringstream oss;
-//                              oss<<"HTTP/1.1 200 OK\ncontent-length:";
-//                              oss<<response.result.length()-3;
-//                              oss<<"\ncontent-type:application/x-www-form-urlencoded\n\n";
-//                              oss<<response.result.substr(2,response.result.length()-3);
-//                              return oss.str();
-//                          }
-//                      })
-//                .onError([](const std::exception& e)
-//                         {
-//                             cerr << "rpc request error: " << exceptionStr(e);
-//                             Response resp("HTTP/1.1 200 OK\ncontent-length:3\ncontent-type:application/x-www-form-urlencoded\n\n123\n");
-//                             return std::move(resp);
-//                         });
+        return (*(ProviderAgentClientDispather_[index]))(std::move(agentRequest)).via(ioExecutor_->getEventBase())
+                .then([this](AgentResponse response)
+                      {
+                          //cout<<"["<<agentRequest.req_id<<","<<response.resp_id<<"]"<<endl;
+                          if(response.result.at(0)!='1')
+                          {
+                              Response resp("HTTP/1.1 200 OK\ncontent-length:3\ncontent-type:application/x-www-form-urlencoded\n\n123\n");
+                              return std::move(resp);
+                          }
+                          else
+                          {
+                              ostringstream oss;
+                              oss<<"HTTP/1.1 200 OK\ncontent-length:";
+                              oss<<response.result.length()-3;
+                              oss<<"\ncontent-type:application/x-www-form-urlencoded\n\n";
+                              oss<<response.result.substr(2,response.result.length()-3);
+                              return oss.str();
+                          }
+                      })
+                .onError([](const std::exception& e)
+                         {
+                             cerr << "rpc request error: " << exceptionStr(e);
+                             Response resp("HTTP/1.1 200 OK\ncontent-length:3\ncontent-type:application/x-www-form-urlencoded\n\n123\n");
+                             return std::move(resp);
+                         });
     }
 
 private:
