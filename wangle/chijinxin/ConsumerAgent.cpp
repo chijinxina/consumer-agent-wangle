@@ -15,7 +15,7 @@
 #include <wangle/codec/StringCodec.h>
 #include <wangle/channel/EventBaseHandler.h>
 
-//#include "etcdclient.h"   //etcd client
+#include "etcdclient.h"   //etcd client
 #include "httpcodec.h"    //HTTP协议编码解码
 #include "utility.h"
 
