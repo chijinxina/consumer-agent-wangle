@@ -292,12 +292,12 @@ public:
         int index = agentRequest.req_id % ProviderAgentClientDispather_.size();  //轮询负载均衡
         if(index<0 || index >=ProviderAgentClientDispather_.size() ) index=0;
 
-        return futures::sleep(std::chrono::milliseconds(80))
-                .then([]()
-                      {
-                          Response resp("HTTP/1.1 200 OK\ncontent-length:3\ncontent-type:application/x-www-form-urlencoded\n\n123\n");
-                          return std::move(resp);
-                      });
+//         return futures::sleep(std::chrono::milliseconds(80))
+//                 .then([]()
+//                       {
+//                           Response resp("HTTP/1.1 200 OK\ncontent-length:3\ncontent-type:application/x-www-form-urlencoded\n\n123\n");
+//                           return std::move(resp);
+//                       });
         return (*(ProviderAgentClientDispather_[index]))(std::move(agentRequest)).via(ioExecutor_->getEventBase())
                 .then([this](AgentResponse response)
                       {
